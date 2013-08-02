@@ -13,7 +13,7 @@
         </helpers>
         <rewrite>
             <kl_stylesheet>
-                <from><![CDATA[/tmp\/frontend\/base\/default\/kl\/stylesheet\/css\/styles.css/]]></from>
+                <from><![CDATA[/tmp\/frontend\/base\/default\/kl\/stylesheet\/css\/styles/]]></from>
                 <to><![CDATA[kl_stylesheet/index/]]></to>
                 <complete>1</complete>
             </kl_stylesheet>
