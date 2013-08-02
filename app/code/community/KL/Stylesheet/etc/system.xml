@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <sections>
+        <design>
+            <groups>
+                <stylesheet translate="label" module="kl_stylesheet">
+                    <label>Stylesheet</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>30</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <content translate="label">
+                            <label>CSS</label>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </content>
+                    </fields>
+                </stylesheet>
+            </groups>
+        </design>
+    </sections>
+</config>

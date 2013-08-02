@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <KL_Stylesheet>
+            <version>0.0.1</version>
+        </KL_Stylesheet>
+    </modules>
+    <global>
+        <helpers>
+            <kl_stylesheet>
+                <class>KL_Stylesheet_Helper</class>
+            </kl_stylesheet>
+        </helpers>
+        <rewrite>
+            <kl_stylesheet>
+                <from><![CDATA[/tmp\/frontend\/base\/default\/kl\/stylesheet\/css\/styles.css/]]></from>
+                <to><![CDATA[kl_stylesheet/index/]]></to>
+                <complete>1</complete>
+            </kl_stylesheet>
+        </rewrite>
+    </global>
+    <frontend>
+        <routers>
+            <kl_stylesheet>
+                <use>standard</use>
+                <args>
+                    <module>KL_Stylesheet</module>
+                    <frontName>kl_stylesheet</frontName>
+                </args>
+            </kl_stylesheet>
+        </routers>
+    </frontend>
+</config>
