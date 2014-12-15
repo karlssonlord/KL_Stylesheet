@@ -6,6 +6,11 @@
         </KL_Stylesheet>
     </modules>
     <global>
+        <blocks>
+            <kl_stylesheet>
+                <class>KL_Stylesheet_Block</class>
+            </kl_stylesheet>
+        </blocks>
         <helpers>
             <kl_stylesheet>
                 <class>KL_Stylesheet_Helper</class>
@@ -29,5 +34,12 @@
                 </args>
             </kl_stylesheet>
         </routers>
+        <layout>
+            <updates>
+                <stylesheet>
+                    <file>stylesheet.xml</file>
+                </stylesheet>
+            </updates>
+        </layout>
     </frontend>
 </config>
